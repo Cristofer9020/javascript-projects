@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right bottom, #0a009b, #6f00ff);
+}
+
+body > * {
+    text-align: center;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+h1, #result {
+    margin-bottom: 1.6rem;
+}
+
+.btnsContainer {
+    margin-bottom: 1.2rem;
+}
+
+button {
+    font-size: 3rem;
+    padding: .4rem;
+    margin: .3rem;
+    border: none;
+    border-radius: 5px;
+}
+
+#btnRock {
+    background: #ff0000;
+}
+
+#btnPaper {
+    background: #2196f3;
+}
+
+#btnScissors {
+    background: #4cab58;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+#userScore {
+    color: #2196f3;
+}
+
+#computerScore {
+    color: #ff0000;
+}

@@ -1,0 +1,13 @@
+1 ⚀
+2 ⚁
+3 ⚂
+4 ⚃
+5 ⚄
+6 ⚅
+
+<div class="roll-history-element">
+    <span id="roll">Roll 1:</span> <span id="dice">⚄</span>
+</div>
+<div class="roll-history-element">
+    <span id="roll">Roll 1:</span> <span id="dice">⚄</span>
+</div>

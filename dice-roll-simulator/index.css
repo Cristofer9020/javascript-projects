@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(to right, #0055a5, #2c00a5);
+}
+
+body > * {
+    text-align: center;
+    margin: auto;
+}
+
+.container {
+    font-size: 8rem;
+}
+
+h1 {
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+button {
+    display: block;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    color: #0075e2;
+    font-size: 1.8rem;
+    padding: .8rem 1.6rem;
+}
+
+.roll-history {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    width: 70%;
+}
+
+.roll-history-element {
+    display: flex;
+    justify-content: space-between;
+    margin: .4rem 0;
+    padding: 1rem .8rem;
+    border: #fff 1px solid;
+}
+
+#numerator {
+    font-size: 1.6rem;
+    margin: .8rem;
+}
+
+#dice {
+    font-size: 3rem;
+}

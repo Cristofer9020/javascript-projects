@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: var(--background-color);
+    color: #fff;
+}
+
+:root {
+    --background-color: #273468;
+    --yellow: #fdce33;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    min-width: 62%;
+    padding: 2rem 3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container > * {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin: .8rem auto;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button, input {
+    padding: .4rem 1.2rem;
+    border: solid 1px #555;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+button {
+    border: 1.6px solid #000;
+    background: var(--yellow);
+    color: #000;
+    transition: background-color ease .2s;
+}
+
+button:hover {
+    background: #000;
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+input {
+    width: 60%;
+}
+
+#ageElement {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
