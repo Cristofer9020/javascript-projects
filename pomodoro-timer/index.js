@@ -4,15 +4,15 @@ const btnStop = document.getElementById("btnStop")
 const btnReset = document.getElementById("btnReset")
 
 let minute = 25, second = 0
-let lastMinute, lastSecond, decrease
+let decrease
 
 function formatSecond(second) {
-    const zero = 0;
-    return second < 10 ? zero + "" + second : second;
+    const zero = 0
+    return second < 10 ? zero + "" + second : second
 }
 
 function updateTime() {
-    timer.textContent = `${minute}:${formatSecond(second)}`;
+    timer.textContent = `${minute}:${formatSecond(second)}`
 }
 
 btnStart.addEventListener("click", () => {
