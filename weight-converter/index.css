@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #0054a3;
+}
+
+.container {
+    padding: 1.8rem 1.4rem;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.container > * {
+    margin: .4rem .1rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+label, p {
+    font-size: 1.4rem;
+}
+
+[type="number"] {
+    padding: .3rem .2rem;
+    border: groove;
+    font-size: 1.6rem;
+}
+
+[type="number"]:focus {
+    color: #444;
+}
+
+#result {
+    color: #0054a3;
+    font-weight: bold;
+}
