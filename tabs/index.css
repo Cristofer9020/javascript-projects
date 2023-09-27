@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: #facc00;
+}
+
+.main-container {
+    display: flex;
+    margin: 3rem 2rem;
+    border-radius: 10px;
+    background: #de1e23;
+}
+
+.main-container > * {
+    margin: 1.6rem;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    width: 50vw;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.steps-container {
+    width: 50vw;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btnStep1 {
+    border-radius: 10px 0 0 0;
+}
+
+#btnStep3 {
+    border-radius: 0 10px 0 0;
+}
+
+.btns {
+    width: 100%;
+    padding: 1rem 0;
+    border: none;
+    font-size: 1.4rem;
+    background: #111;
+    color: #facc00;
+}
+
+.hover:hover {
+    opacity: .7;
+}
+
+.step-description {
+    margin: 1rem 2rem;
+}
+
+h2 {
+    margin-bottom: .8rem;
+}
+
+@media screen and (max-width: 650px) {
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-container > * {
+        width: 80%;
+    }
+}
