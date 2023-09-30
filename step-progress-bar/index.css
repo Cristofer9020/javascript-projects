@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --step-checked: #00850b;
+    --step-not-checked: #555;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: #111;
+}
+
+.steps-container {
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.step i {
+    margin: 1rem 1.4rem;
+    padding: 1rem 1.2rem;
+    font-size: 1.4rem;
+}
+
+.step span {
+    font-size: 1.2rem;
+}
+
+i, span {
+    display: block;
+    text-align: center;
+}
+
+.i-checked {
+    border: solid 5px var(--step-checked);
+    border-radius: 50%;
+    color: var(--step-checked);
+}
+
+.span-checked {
+    color: var(--step-checked);
+}
+
+.i-not-checked {
+    border: solid 5px var(--step-not-checked);
+    border-radius: 50%;
+    color: var(--step-not-checked);
+}
+
+.span-not-checked {
+    color: var(--step-not-checked);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.buttons-container > button {
+    margin: .4rem 1rem;
+    padding: .6rem 1.4rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.inactiveBtn {
+    background-color: #444;
+}
+
+.activeBtn {
+    background-color: #592cd4;
+}
