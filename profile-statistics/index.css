@@ -4,3 +4,54 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body {
+    background: linear-gradient(to right bottom, #ea00ff, #00eeff);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.stats-container {
+    margin: 2rem 1rem;
+    padding: 0 1.8rem 1rem;
+    border: dashed 4px #fff;
+    width: 16rem;
+    height: 12rem;
+}
+
+.stats-container > * {
+    text-align: center;
+    color: #fff;
+}
+
+.icon-container {
+    display: block;
+    align-items: center;
+    font-size: 1.4rem;
+    position: relative;
+    top: -2.6rem;
+}
+
+.number {
+    font-size: 3.2rem;
+    position: relative;
+    top: -1.4rem;
+}
+
+.description {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        height: 100%;
+        padding-top: 2rem;
+    }
+}
