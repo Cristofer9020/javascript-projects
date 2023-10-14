@@ -4,3 +4,73 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body {
+    background: #222;
+}
+
+h1, p {
+    padding: 1rem;
+    text-align: center;
+    color: #e2ad00e1;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.notes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 70%;
+}
+
+.btnAndIpt {
+    margin: .5rem;
+    border: none;
+    border-radius: 10px;
+    width: 16rem;
+    height: 10rem;
+    background: #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.note {
+    padding: .5rem;
+    font-size: 1.2rem;
+    resize: none;
+}
+
+.note:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.note:focus {
+    outline: none;
+}
+
+#btnCreateNote {
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#btnCreateNote:hover {
+    background: #333;
+}
+
+@media screen and (max-width: 500px) {
+    .notes-container {
+        box-shadow: none;
+    }
+}
