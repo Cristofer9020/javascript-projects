@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #6a5acd;
+}
+
+.container {
+    border-radius: 10px;
+    min-width: 30%;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container > * {
+    padding: .8rem;
+    text-align: center;
+}
+
+#month {
+    font-size: 2rem;
+    border-radius: 10px 10px 0 0;
+    background: #ff4500;
+    color: #fff;
+}
+
+#day-week, #year {
+    font-size: 1.2rem;
+    color: #999;
+}
+
+#day-month {
+    font-size: 5rem;
+    font-weight: bolder;
+}
