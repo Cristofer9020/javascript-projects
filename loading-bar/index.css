@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000;
+}
+
+.container {
+    width: 30rem;
+}
+
+.container > * {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.front {
+    position: relative;
+    top: -1.6rem;
+    height: .6rem;
+    border-radius: 5px;
+    background: #FF2D00;
+}
+
+.back {
+    width: 100%;
+    height: .6rem;
+    border-radius: 5px;
+    background: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 80%;
+    }
+}
