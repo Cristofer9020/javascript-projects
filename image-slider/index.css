@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #F09A3D;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.btn {
+    position: relative;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:hover {
+    color: #DFD8CE;
+}
+
+.prev {
+    left: 1.8rem;
+}
+
+.next {
+    right: 1.8rem;
+}
