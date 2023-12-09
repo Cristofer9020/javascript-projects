@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #5D00D6, #001BCD);
+}
+
+.container {
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.container > * {
+    margin: 1rem;
+}
+
+.emoji-container {
+    display: block ;
+    text-align: center;
+}
+
+.emoji-container i {
+    color: #f00;
+}
+
+.stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.stars i {
+    margin: .4rem;
+    color: #A09FA1;
+}
+
+.active {
+    color: #E6D700 !important;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 80%;
+    }
+}
