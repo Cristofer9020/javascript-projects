@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --darkMode: background-color .5s ease-in-out;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: var(--darkMode);
+}
+
+.toggle {
+    width: 6rem;
+    height: 2.8rem;
+    border-radius: 30px;
+    background: #aaa;
+    transition: var(--darkMode);
+    cursor: pointer;
+}
+
+.circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    position: relative;
+    top: .15rem;
+    left: .1rem;
+    background: #fff;
+    transition: var(--darkMode);
+}
